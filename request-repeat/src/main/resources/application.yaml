@@ -1,0 +1,16 @@
+server:
+  port: 8001
+
+spring:
+  redis:
+    redisson:
+      config: |
+        singleServerConfig:
+          password: 12345678@a
+          address: "redis://r-uf6avls0tbfr96z712pd.redis.rds.aliyuncs.com:6379"
+          database: 0
+        threads: 0
+        nettyThreads: 0
+        codec:
+          class: "org.redisson.codec.JsonJacksonCodec"
+        transportMode: "NIO"
