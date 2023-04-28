@@ -8,10 +8,6 @@ class RequestRepeatApplicationTests {
 
     /**
      * test
-     *
-     * test2
-     *
-     * test3
      */
     @Test
     void contextLoads() {
